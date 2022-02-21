@@ -1,0 +1,304 @@
+  
+  .body {
+    background-color: rgb(0, 0, 0);
+  }
+  .first-layer{
+                                 
+       
+  background-color: rgba(53, 2, 2, 0.986);
+  width: 100%;
+  height:80px;
+  }
+  .second-layer{
+       
+   background-color:rgb(219, 44, 0);
+  width: 100%;
+  height: 10px;
+  }
+  .third-layer{
+      
+      background-color: rgb(27, 26, 26);
+      width: 100;
+      height: 400px;
+  }
+  .forth-layer{
+      background-color: black;
+    color: beige;
+   width: 100%;
+   height: 300px;
+  }
+  .line {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  padding:20px;
+  align-items: center;
+  
+  }
+  .line li {
+  padding-right: 20px;
+  font-size: 20px;
+  
+  }
+  .line a{
+      color: antiquewhite;
+      text-decoration: none;
+  }
+  .line a:hover{
+      color: rgb(25, 248, 25);
+      font-size:medium ;
+  }
+  .now{
+  color: bisque;
+  background-color: rgb(182, 1, 1);
+  width:100px;
+  height: 50px;
+  border-radius: 30px;
+  }
+  .fro{
+      font-family:Bradley Hand ITC;
+      color:white;
+      font-size:40px;
+        position: absolute;
+        left:4%;
+        top:10px;
+  
+  }
+  .mas{
+      font-family:Brush Script MT;
+      color:rgb(158, 0, 0);
+      font-size:70px;
+        position: absolute;
+        left:16%;
+        top:-20px;
+  
+  }
+  .down {
+      display: flex;
+      list-style-type: none;
+      justify-content: right;
+      padding:20px;
+      align-items: center;
+      font-size: 18px;
+      }
+      .down li {
+      padding-right: 30px;
+      
+      
+      }
+      .down a{
+          color: antiquewhite;
+          text-decoration: none;
+      }
+      .down a:hover{
+          color: rgb(21, 42, 226);
+          font-size:medium;
+      }
+  .down{
+  
+      position:absolute;
+      top:480px;
+      right: 270px;
+  }
+  .form{
+  position:absolute;
+  top:150px;
+  left:500px;
+  font: size 30px;
+  color:beige;
+  }
+  .end{
+      font-family:Bradley Hand ITC;
+      color:white;
+      font-size:30px;
+      width:120px;
+         
+        
+  
+  }
+  .masters{
+      font-family:Brush Script MT;
+      color:rgb(173, 0, 0);
+      font-size:70px;
+        width:240px;
+  }
+   .form {
+      padding: 15px;
+      border-color: rgb(249, 253, 255);
+      color: rgb(255, 255, 255);
+      font-family: Calibri;
+      font-size: 17px; 
+      background-color: inherit;
+      border-radius: 0px;
+      margin-left: 0px;
+      
+      text-decoration: none;
+   }
+  .form {
+      height:30% ;
+    width: 30%;
+    padding: 6px 90px;
+    margin: 2px 0;
+    display: inline-block;
+    border: none;
+    border-radius: none;
+    box-sizing: border-box;
+    
+  } 
+  #email{
+      width: 390px;
+      height: 40px;
+  }
+  #psw{
+          width: 390px;
+          height: 40px;
+      }
+  
+  .form .loginbtn{
+  
+      width: 4%;
+      background-color: #af0f04;
+      color: white;
+      padding: 15px 16px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+    
+  }
+  .form .a{
+      text-decoration: none;
+      text-decoration-color: white;
+      color: beige;
+  }
+  .get{
+      position:absolute;
+      top:650px;
+      left:150px;
+  }
+   
+  #mast{
+      color: rgb(112, 111, 111);
+      position:absolute;
+      top:95px;
+      left:10px;
+      font: size 25px;
+  
+  }
+  #masta{
+      position:absolute;
+      top:15px;
+      left:830px;
+      font: size 25px;
+      color:rgb(148, 148, 146);
+      
+      }
+      #masta .p .a{
+          color: #af0f04;
+      }
+      #mastad{
+          position:absolute;
+          top:35px;
+          left:830px;
+          font: size 25px;
+          color:rgb(148, 148, 146);
+          Display:float;
+          }
+  
+          #faba{
+              position:absolute;
+              top:50px;
+              right:-70px;
+          }
+          #inst{
+              position:absolute;
+              top:50px;
+              right:-120px;
+          }
+          #in{
+              position:absolute;
+      top:50px;
+      right:-31px;
+          }
+          #twit{
+              position:absolute;
+      top:50px;
+      right:20px;
+          }
+          #google{
+              position:absolute;
+      top:10px;
+      right:-198px;
+          }
+          #app{
+              position:absolute;
+      top:10px;
+      right:-53px;
+          }
+          #box{
+              
+          }
+          span{
+              vertical-align: middle;
+          }
+          .dont{
+               
+                  display: flex;
+                  list-style-type: none;
+                  padding:20px;
+                  
+                  }
+            .dont li {
+                  padding-right: 30px;
+                  
+          }
+          .else{
+               
+              display: flex;
+              list-style-type: none;
+              padding:20px;
+               
+              }
+        .else li {
+              padding-right: 30px;
+              
+      }
+      .dont{
+          position: absolute;
+          bottom:-100px;
+      }
+      .else{
+          position: absolute;
+          bottom: -60px;
+      }
+       .go{
+           position: absolute;
+           right: -1129px;
+           top: 40px;
+       }
+       .a{
+          color: #af0f04;
+       }
+      #pass{
+          bottom: 50%;
+      }
+      .under{
+          position: absolute;
+          top:740px;
+          left: 150px;
+          color: beige;
+      }
+      #pot{
+          color: #fd1505;
+          text-decoration: #fd1505 underline;
+      }
+      #pot a{
+          text-decoration: #fd1505 underline;
+          color: #fd1505;
+      }
+      #pot a:hover{
+          color: #fd1505;
+          text-decoration: #fd1505 underline;
+      }
+          
+      
